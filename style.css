@@ -1,0 +1,176 @@
+#header{
+    border:2px solid black;
+    display: flex;
+    margin-bottom: 30px;
+    padding: 10px;
+    justify-content: center;
+
+}
+#header button{
+    border-radius: 5px;
+    background-color: lightskyblue;
+    width:200px;
+    margin-left: 100px;
+}
+
+
+#header button:hover{
+    background-color: aquamarine;
+    transform: scale(1.1);
+}
+
+#header button:hover{
+    background-color: aquamarine;
+    transform: scale(1.1);
+}
+
+#divbreedcrum {
+    border: 5px solid rgb(160, 16, 136);
+    margin-top: 10px;
+    display: flex;
+}
+
+#container {
+       border: 10px solid lightgreen;
+       padding: 10px;
+       margin-top: 10px;
+       display: flex;
+}
+
+.path{
+     cursor: pointer;
+     color: black;
+     background-color:grey;
+     padding: 5px;
+     border-right: 2px solid black;
+}
+
+.path:hover{
+    text-decoration: underline;
+    background-color: aliceblue;
+    color: blue;
+}
+
+.folder{
+    
+    height: 100px;
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+div [purpose=name]{
+    margin-top: 50px;
+}
+
+.folder [action]{
+    text-decoration: underline;
+}
+
+.text-file{
+    
+    height: 100px;
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+    background-color: crimson;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+div [purpose=name]{
+    margin-top: 50px;
+}
+
+.text-file [action]{
+    text-decoration: underline;
+}
+
+#app{
+    margin-top: 10px;
+    border: 5px solid black;
+}
+
+#app-titlebar{
+    display: flex;
+    background-color: coral;
+}
+
+#app-title{
+   color: blue;
+   text-align: center;
+   width: 90%;
+   border-right: 5px solid red;
+}
+
+#app-menubar{
+   border: 2px solid black;
+   background-color: burlywood;
+   height: 40px;
+}
+
+#app-body{
+   border: 2px solid black;
+   background-color: mintcream;
+   height: 500px;
+   margin-right: 5px;
+   margin-bottom: 5px;
+}
+
+.material-icons{
+    margin-right: 10px;
+}
+
+.notepad-body{
+    height: 100%;
+    width: 100%;
+    padding-right:2px;
+}
+
+.notepad-body textarea{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.notepad-menu{
+    width: 100%;
+    padding: 5px;
+}
+
+.notepad-menu * {
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.notepad-menu input[type=color]{
+    width: 40px;
+}
+
+.notepad-menu span{
+    vertical-align: bottom;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.notepad-menu span:hover{
+    transform:scale(1.1);
+    color: crimson;
+    border: 2px solid black;
+    background-color: antiquewhite;
+}
+
+.notepad-menu span[pressed=true]{
+    transform:scale(1.1);
+    color: crimson;
+    border: 2px solid black;
+    background-color: antiquewhite;
+}
